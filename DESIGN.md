@@ -1,4 +1,4 @@
-# DESIGN.md — {{サービス名}}
+# DESIGN.md — Kcode
 
 > このファイルはAIエージェントが日本語UIを生成するためのデザイン仕様書です。
 > ヒアリングデータを元にAIが自動生成します。手動編集も可能です。
@@ -7,9 +7,9 @@
 
 ## 1. Visual Theme & Atmosphere
 
-- **デザイン方針**: {{AIが業種から判断}}
-- **密度**: {{ゆったり / 標準 / 情報密度高め}}
-- **キーワード**: {{3〜5つの形容詞}}
+- **デザイン方針**: システムエンジニアとしての高い技術力と信頼感を伝える、プロフェッショナルで先進的なデザイン
+- **密度**: 情報密度高め（実績やサービス内容を豊富に掲載し、説得力を持たせる）
+- **キーワード**: プロフェッショナル、先進的、信頼感、高機能
 
 ---
 
@@ -17,8 +17,8 @@
 
 ### Primary（ブランドカラー）
 
-- **Primary** (`#______`): メインのブランドカラー。CTAボタン、リンク等に使用
-- **Primary Dark** (`#______`): ホバー・プレス時
+- **Primary** (`#2563EB`): メインのブランドカラー。CTAボタン、リンク等に使用
+- **Primary Dark** (`#1D4ED8`): ホバー・プレス時
 
 ### Semantic
 
@@ -28,10 +28,10 @@
 
 ### Neutral
 
-- **Text Primary** (`#171717`): 本文テキスト
-- **Text Secondary** (`#737373`): 補足テキスト
-- **Border** (`#E5E5E5`): 区切り線、入力欄の枠
-- **Background** (`#FAFAFA`): ページ背景
+- **Text Primary** (`#0F172A`): 本文テキスト
+- **Text Secondary** (`#475569`): 補足テキスト
+- **Border** (`#E2E8F0`): 区切り線、入力欄の枠
+- **Background** (`#F8FAFC`): ページ背景
 - **Surface** (`#FFFFFF`): カード、モーダル等の面
 
 ---
@@ -109,7 +109,7 @@ font-feature-settings: "palt" 1, "kern" 1;
 
 ### Inputs
 
-- Border: 1px solid #E5E5E5
+- Border: 1px solid #E2E8F0
 - Border (focus): 1px solid Primary
 - Border Radius: 10px
 - Padding: 12px 16px
@@ -118,7 +118,7 @@ font-feature-settings: "palt" 1, "kern" 1;
 ### Cards
 
 - Background: #FFFFFF
-- Border: 1px solid #E5E5E5
+- Border: 1px solid #E2E8F0
 - Border Radius: 12px
 - Padding: 24px
 - Shadow: 0 1px 2px rgba(0,0,0,0.05)
